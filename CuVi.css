@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url("Incognito image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 300px 300px;
+}
+header{
+   width:100%;
+   position: fixed;
+   top:0;
+   left:0;
+}
+h1{
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(192, 0, 0);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-left:-10px;
+    margin: 0px;
+}
+
+header ul{
+    background-color: #570400;
+    margin:0px;
+    height:22px;
+    top:0;
+    vertical-align: middle;
+    overflow:hidden;
+ }
+header ul li{
+    display: inline-block;
+    min-width: 10rem;
+    text-align: center;
+ }
+header ul li a{
+    color:rgb(60, 255, 0);
+    text-decoration: none;
+ }
+ .current{
+    background-color: black;
+    color: #ff0d00;
+    width: 11rem;
+    margin: 0px;
+    margin-left: -2.5rem;
+    height: 22px;
+    text-align: center;
+ }
+ .Content{
+   margin-top: 32px;
+ }
+ .Bio{
+   padding-top: 32px;
+    padding-left: 10px;
+    float: left;
+    top:0;
+    width: 100%;
+ }
+ .Bio b{
+    color: chartreuse;
+ }
+ .Bio img{
+    padding-left: 10px;
+    width: 100px;
+    float:left;
+    padding-right: 20px;
+ }
+ .Bio p{
+    padding-top: 12px;
+    margin: 0px;
+ }
+ .info{
+    margin-top: 6%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 83.5%;
+ }
+ nav{
+    margin-left: 83.5%;
+    padding-left: 10px;
+    width: 15%;
+    height:100%;
+    position: fixed;
+    right:0;
+    background-color: black;
+ }
+ nav b{
+    color:#ff0d00;
+ }
+ nav a{
+    color: chartreuse;
+    text-decoration: none;
+ }
+footer{
+    width: 100%;
+    background-color: black;
+    height: 5%;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+ }
+ .Disclaimer{
+    color: rgb(79, 158, 0);
+    height: 100%;
+    width:96%;
+    text-align: right;
+    vertical-align: bottom;
+    position: fixed;
+    bottom:0;
+    z-index: 10;
+}
+.Crimes{
+    padding-left: 20px;
+    width: 40%;
+    float: left;
+}
+.Articles{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.Articles a{
+    color: white;
+    text-decoration: none;
+}
+.Articles b{
+    color: chartreuse;
+    background-color: chartreuse;
+}
+table{
+   overflow: scroll;
+}
+.Images img{
+    width: 400px;
+    height: 250px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    position: static;
+}
